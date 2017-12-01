@@ -140,7 +140,7 @@
     <TypeScriptCompile Include="Public\app\app.component.ts" />
     <TypeScriptCompile Include="Public\app\app.module.ts" />
     <TypeScriptCompile Include="Public\app\config\app.route.ts" />
-    <TypeScriptCompile Include="Public\app\home\home.component.ts" />
+    <TypeScriptCompile Include="Public\app\feature\home.component.ts" />
     <TypeScriptCompile Include="Public\app\main.ts" />
   </ItemGroup>
   <ItemGroup>

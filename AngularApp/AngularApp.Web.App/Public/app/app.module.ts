@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
+import { routing } from './config/app.route';
+import { HomeComponent } from './feature/home.component';
 
 
 @NgModule({
-    imports: [BrowserModule, ReactiveFormsModule, HttpModule],
-    declarations: [AppComponent],
+    imports: [BrowserModule, ReactiveFormsModule, HttpModule, routing],
+    declarations: [AppComponent, HomeComponent],
     providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
     bootstrap: [AppComponent]
 })

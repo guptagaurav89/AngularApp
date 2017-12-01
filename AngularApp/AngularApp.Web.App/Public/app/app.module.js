@@ -12,13 +12,15 @@ var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
+var app_route_1 = require("./config/app.route");
+var home_component_1 = require("./feature/home.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, forms_1.ReactiveFormsModule, http_1.HttpModule],
-            declarations: [app_component_1.AppComponent],
+            imports: [platform_browser_1.BrowserModule, forms_1.ReactiveFormsModule, http_1.HttpModule, app_route_1.routing],
+            declarations: [app_component_1.AppComponent, home_component_1.HomeComponent],
             providers: [{ provide: common_1.APP_BASE_HREF, useValue: '/' }],
             bootstrap: [app_component_1.AppComponent]
         })
