@@ -2,7 +2,7 @@
 
 @Component({
     //selector: 'user-app',
-    template: `<h3>Angular App Home</h3>`
+    template: `Angular App Home`
 })
 export class HomeComponent {
 }

@@ -13,7 +13,7 @@ var HomeComponent = /** @class */ (function () {
     HomeComponent = __decorate([
         core_1.Component({
             //selector: 'user-app',
-            template: "<h3>Angular App Home</h3>"
+            template: "Angular App Home"
         })
     ], HomeComponent);
     return HomeComponent;
