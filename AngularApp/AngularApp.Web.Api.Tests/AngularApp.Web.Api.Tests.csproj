@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AngularApp.Web.Api\AngularApp.Web.Api.csproj">
-      <Project>{B48D0E8F-8756-4644-A701-BF1D8F49CCCF}</Project>
+      <Project>{40d0de0a-4316-4e73-842e-31146c2fdc24}</Project>
       <Name>AngularApp.Web.Api</Name>
     </ProjectReference>
   </ItemGroup>
